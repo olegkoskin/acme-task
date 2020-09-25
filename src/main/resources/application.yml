@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+springdoc:
+  version: '@project.version@'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: ALWAYS
