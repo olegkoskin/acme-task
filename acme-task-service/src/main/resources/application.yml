@@ -1,0 +1,48 @@
+server:
+  port: 8088
+
+springdoc:
+  version: '@project.version@'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-components: always
+      show-details: always
+
+async:
+  async-executor:
+    core-pool-size: 10
+    max-pool-size: 50
+    queue-capacity: 30
+    thread-name-prefix: AsyncThread-
+
+feign:
+  hystrix:
+    enabled: true
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+
+logging:
+  level:
+    ROOT: INFO
+    com.acme.task: DEBUG
+
+
+acm:
+  external-services:
+    connectTimeout: 5000
+    readTimeout: 60000
+    google-books:
+      url: https://www.googleapis.com/books
+      limit: 5
+    itunes:
+      url: https://itunes.apple.com
+      limit: 5
+

@@ -1,0 +1,11 @@
+<div class="example-container">
+  <form [formGroup]="inputForm" (submit)="submit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Search input:</mat-label>
+      <input matInput formControlName="input" placeholder="Search input" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit" [disabled]="!inputForm.valid">
+      Search
+    </button>
+  </form>
+</div>

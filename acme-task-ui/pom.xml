@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.acme</groupId>
+    <artifactId>acme-task</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>acme-task-ui</artifactId>
+  <packaging>jar</packaging>
+
+  <name>acme-task-ui</name>
+  <description>ACME Task UI</description>
+
+  <properties>
+    <sonar.projectKey>
+      olegkoskin_acme-task-${project.groupId}:${project.artifactId}
+    </sonar.projectKey>
+    <node-version>v14.12.0</node-version>
+    <npm-version>6.14.8</npm-version>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>1.10.0</version>
+        <configuration>
+          <nodeVersion>${node-version}</nodeVersion>
+          <npmVersion>${npm-version}</npmVersion>
+          <installDirectory>target</installDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <phase>generate-resources</phase>
+          </execution>
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <phase>generate-resources</phase>
+          </execution>
+          <execution>
+            <id>build-prod</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>run-script build-prod</arguments>
+            </configuration>
+            <phase>generate-resources</phase>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- copy everything as a webjar -->
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/classes/META-INF/resources</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>dist/acme-task-ui/</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
