@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class SearchCollections {
 
-  int resultCount;
   List<SearchCollection> results;
 
 }

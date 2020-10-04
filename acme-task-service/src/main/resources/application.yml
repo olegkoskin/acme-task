@@ -3,6 +3,15 @@ server:
 
 springdoc:
   version: '@project.version@'
+  api-docs:
+    groups:
+      enabled: true
+  swagger-ui:
+    groups-order: DESC
+  show-actuator: true
+  group-configs:
+    - group: main
+      packages-to-scan: com.acme.task.api
 
 management:
   endpoints:
@@ -34,7 +43,6 @@ logging:
     ROOT: INFO
     com.acme.task: DEBUG
 
-
 acm:
   external-services:
     connectTimeout: 5000
@@ -45,4 +53,3 @@ acm:
     itunes:
       url: https://itunes.apple.com
       limit: 5
-

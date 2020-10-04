@@ -1,0 +1,289 @@
+{
+  "request": {
+    "urlPath": "/server/googlebooks/v1/volumes",
+    "method": "GET",
+    "queryParameters": {
+      "q": {
+        "equalTo": "sdfsdf"
+      },
+      "maxResults": {
+        "equalTo": "5"
+      },
+      "printType": {
+        "equalTo": "BOOKS"
+      },
+      "projection": {
+        "equalTo": "LITE"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "kind": "books#volumes",
+      "totalItems": 136,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "3HyXswEACAAJ",
+          "etag": "T5BXFHGmydc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/3HyXswEACAAJ",
+          "volumeInfo": {
+            "title": "sdfsdf",
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "previewLink": "http://books.google.com.ua/books?id=3HyXswEACAAJ&dq=sdfsdf&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=3HyXswEACAAJ&dq=sdfsdf&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/sdfsdf.html?hl=&id=3HyXswEACAAJ"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "NONE"
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "hI9uDwAAQBAJ",
+          "etag": "QAHNeMXFoAc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/hI9uDwAAQBAJ",
+          "volumeInfo": {
+            "title": "The IDE Crasher's Guide Compendium: Volumes One - Three",
+            "subtitle": "Wisdom From The Overflow Exceptions of a Determined Programmer",
+            "authors": [
+              "David J. Andrew"
+            ],
+            "publisher": "David J. Andrew",
+            "publishedDate": "2018-10-31",
+            "description": "Built from the process of years of study, application, and function among the various parts of the technological community, this monthly periodical is set to provide a glorious array of teaching from software development, penetration testing, securities, server functionality, to open innovations.",
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.2.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=hI9uDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=hI9uDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=hI9uDwAAQBAJ&pg=PT106&dq=sdfsdf&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=hI9uDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hI9uDwAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "UA",
+            "listPrice": {
+              "amount": 271.61,
+              "currencyCode": "UAH"
+            },
+            "retailPrice": {
+              "amount": 190.13,
+              "currencyCode": "UAH"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=hI9uDwAAQBAJ&rdid=book-hI9uDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 271610000,
+                  "currencyCode": "UAH"
+                },
+                "retailPrice": {
+                  "amountInMicros": 190130000,
+                  "currencyCode": "UAH"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "... implementationimplementation ofof kernelkernel computing,computing, thethe <br>\n<b>SDFSDF</b> organizationorganization providedprovided theirtheir <b>SDFSDF</b> <br>\nUnixUnix serverserver intointo thethe publicpublic scopescope inin thethe 1980&#39;s<br>\n.1980&#39;s."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "XrN-DwAAQBAJ",
+          "etag": "lGYVPEDvNVM",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/XrN-DwAAQBAJ",
+          "volumeInfo": {
+            "title": "The Lemonade War Three Books in One",
+            "subtitle": "The Lemonade War, the Lemonade Crime, the Bell Bandit",
+            "authors": [
+              "Jacqueline Davies"
+            ],
+            "publisher": "HMH Books For Young Readers",
+            "publishedDate": "2019",
+            "description": "The Bell Bandit: Siblings Evan and Jessie must solve the mystery of a missing cherished family treasure while coming to terms with their beloved grandmother's unsettling behavior.",
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=XrN-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=XrN-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=XrN-DwAAQBAJ&pg=PA175&dq=sdfsdf&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=XrN-DwAAQBAJ&dq=sdfsdf&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Lemonade_War_Three_Books_in_One.html?hl=&id=XrN-DwAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "pn jcni e sdf czscawjdcicjab wqoweif sf <b>sdfsdf</b> cjbLOSSoi we wefwk u udchiu <br>\nfpowefu ncb <br>\nwdhchSTATEMENTalsdfnqwcafiqwwebcacjfpjiofwesdkjfhfpowefuasjdhfnqw <br>\nwuihciiw fnqw fiqw jfpj iof ucnawwcc cwjc pwoc Profit the Margin: limits&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "6StOAQAAIAAJ",
+          "etag": "/E9yi7pG7ms",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/6StOAQAAIAAJ",
+          "volumeInfo": {
+            "title": "Proceedings of the Ocean Drilling Program",
+            "subtitle": "Initial report. Part A",
+            "authors": [
+              "Scripps Institution of Oceanography"
+            ],
+            "publishedDate": "1973",
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.2.2.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=6StOAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=6StOAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=6StOAQAAIAAJ&q=sdfsdf&dq=sdfsdf&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=6StOAQAAIAAJ&dq=sdfsdf&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Proceedings_of_the_Ocean_Drilling_Progra.html?hl=&id=6StOAQAAIAAJ"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "NONE"
+          },
+          "searchInfo": {
+            "textSnippet": "... <b>SDFSDF</b> DF CR CR CR FS D FI CR SDFI CR FSD R SDFSDFSDFSDFSDF CR <br>\nCR CR CR CR <b>SDFSDF SDFSDF</b> CR ... Middle Miocene SDF ICR S DFU CR <br>\nEarly Miocene Late Oligocene SD SDF <b>SDFSDF</b> R SDF <b>SDFSDF</b> R <b>SDFSDF</b> CR<br>\n&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "1BdMAQAAMAAJ",
+          "etag": "WZnmGCAqgYk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/1BdMAQAAMAAJ",
+          "volumeInfo": {
+            "title": "Contributions - Scripps Institution of Oceanography",
+            "authors": [
+              "Scripps Institution of Oceanography"
+            ],
+            "publishedDate": "1974",
+            "description": "Reprints from various publications.",
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.1.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=1BdMAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=1BdMAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=1BdMAQAAMAAJ&q=sdfsdf&dq=sdfsdf&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=1BdMAQAAMAAJ&dq=sdfsdf&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Contributions_Scripps_Institution_of_Oce.html?hl=&id=1BdMAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "NONE"
+          },
+          "searchInfo": {
+            "textSnippet": "... SDFSDFSDF CR CR CR с <b>SDFSDF</b> DF CR CR CR FSDF CR SDF CR CR SD <br>\nSDFSDFSDFSDFSDF R CR CR CR CR <b>SDFSDF</b> S DFSDF CR CR CR Pliocene <br>\nCR Late Miocene Middle Miocene SDF CR SDF CR CR Early Miocene SD SDF&nbsp;..."
+          }
+        }
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

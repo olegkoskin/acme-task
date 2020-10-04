@@ -1,0 +1,325 @@
+{
+  "request": {
+    "urlPath": "/server/googlebooks/v1/volumes",
+    "method": "GET",
+    "queryParameters": {
+      "q": {
+        "equalTo": "hello"
+      },
+      "maxResults": {
+        "equalTo": "5"
+      },
+      "printType": {
+        "equalTo": "BOOKS"
+      },
+      "projection": {
+        "equalTo": "LITE"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "kind": "books#volumes",
+      "totalItems": 526,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "p-w-DwAAQBAJ",
+          "etag": "ZXnkDG5mQ4I",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/p-w-DwAAQBAJ",
+          "volumeInfo": {
+            "title": "Hello!",
+            "authors": [
+              "Dino Lingo"
+            ],
+            "publisher": "Dino Lingo",
+            "readingModes": {
+              "text": true,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.1.0.preview.3",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=p-w-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=p-w-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=p-w-DwAAQBAJ&pg=PP4&dq=hello&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=p-w-DwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p-w-DwAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "UA",
+            "listPrice": {
+              "amount": 134.95,
+              "currencyCode": "UAH"
+            },
+            "retailPrice": {
+              "amount": 91.77,
+              "currencyCode": "UAH"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=p-w-DwAAQBAJ&rdid=book-p-w-DwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 134950000,
+                  "currencyCode": "UAH"
+                },
+                "retailPrice": {
+                  "amountInMicros": 91770000,
+                  "currencyCode": "UAH"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello-sample-epub.acsm?id=p-w-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello-sample-pdf.acsm?id=p-w-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "Dino Lingo. &quot;Привіт, Торо.&quot; &quot;<b>Hello</b>, Toro.&quot; &quot;Привіт, Гобі.&quot; &quot;<b>Hello</b>, Goby.&quot;"
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "rvOGDwAAQBAJ",
+          "etag": "lW5IEkgkC6Y",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/rvOGDwAAQBAJ",
+          "volumeInfo": {
+            "title": "Hello, 1C. Пример быстрой разработки приложений на 1С:Предприятие 8.2. Мастер-класс (+epub)",
+            "authors": [
+              "В. Рыбалка"
+            ],
+            "publisher": "Litres",
+            "publishedDate": "2019-04-06",
+            "description": "Эта книга представляет собой художественное изложение мастер-класса «Пример быстрой разработки приложений на платформе „1С:Предприятие 8.2“», который проводят для студентов и выпускников в День 1С:Карьеры фирма «1С» и партнеры «1С» более чем в 60 городах России, Украины и Казахстана.Книга показывает самые простые, основные возможности разработки прикладных решений в системе 1С:Предприятие 8. Она будет интересна и полезна тем, кто хочет узнать, что же представляет собой процесс разработки. Это сложно? Интересно ли этим заниматься?Книга адресована в первую очередь тем, кто хотел бы самостоятельно, «вживую» попробовать, насколько это интересно и увлекательно – создавать программы с помощью «1С:Предприятия 8». А если вы после нашего знакомства захотите по-настоящему освоить 1С:Предприятие 8 – у вас есть для этого много возможностей: от книг ведущих разработчиков «1С» и интернет-курсов до центров сертифицированного обучения, которые есть практически во всех регионах нашей страны.После покупки предоставляется дополнительная возможность скачать книгу в формате epub.",
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.1.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=rvOGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=rvOGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=rvOGDwAAQBAJ&pg=PA2&dq=hello&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=rvOGDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rvOGDwAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "UA",
+            "listPrice": {
+              "amount": 43.21,
+              "currencyCode": "UAH"
+            },
+            "retailPrice": {
+              "amount": 35.86,
+              "currencyCode": "UAH"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=rvOGDwAAQBAJ&rdid=book-rvOGDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 43210000,
+                  "currencyCode": "UAH"
+                },
+                "retailPrice": {
+                  "amountInMicros": 35860000,
+                  "currencyCode": "UAH"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello_1C_%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B9_%D1%80-sample-pdf.acsm?id=rvOGDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "Электронный аналог печатного издания «<b>Hello</b>, 1С! Пример быстрой <br>\nразработки мобильного приложения на платформе 91С:Предприятие 8.39» (<br>\nISBN 978Ү5Ү9677Ү2074Ү1, M.: OOO «1СҮПаблишинг», 2014; артикул <br>\nпечатной&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "AgMZWyOQhZkC",
+          "etag": "5Cer7aQ0VBA",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/AgMZWyOQhZkC",
+          "volumeInfo": {
+            "title": "Hello! Next Time We Will Be Friends",
+            "authors": [
+              "James Ottley"
+            ],
+            "publisher": "Xlibris Corporation",
+            "publishedDate": "2011-07-18",
+            "description": "In a world where most people believe that they are always right, it has become increasingly difficult for productive conversation to take place. I am proposing that an informal salutation, introduction, communication needs to take place. This should be followed by an intentional invitation for dialogue, on an equal playing field, where trust, generosity can be developed and be evident in transparency at every level. In an interrelated and interconnected world, productive action is possible if we act with wisdom and with a firm commitment toward peace and justice for all. I believe that hello, wisdom, hospitality, trust, generosity and action is the way forward.",
+            "readingModes": {
+              "text": true,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.3.0.preview.3",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=AgMZWyOQhZkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=AgMZWyOQhZkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=AgMZWyOQhZkC&pg=PT9&dq=hello&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=AgMZWyOQhZkC&dq=hello&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Next_Time_We_Will_Be_Friends.html?hl=&id=AgMZWyOQhZkC"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello_Next_Time_We_Will_Be_Friends-sample-epub.acsm?id=AgMZWyOQhZkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello_Next_Time_We_Will_Be_Friends-sample-pdf.acsm?id=AgMZWyOQhZkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "<b>Hello</b>. THIS. BOOK IS about how we live together in an exciting, complex world. I <br>\nam proposing that <b>hello</b>, how you take the initiative to begin conversation, is, <br>\nwithout a doubt, of supreme importance. It follows that this initiative, the initial&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "kpIZqzEOZhMC",
+          "etag": "UYcn427LGIo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/kpIZqzEOZhMC",
+          "volumeInfo": {
+            "title": "Hello, Goodbye",
+            "subtitle": "Teaching Your Baby to Sign",
+            "authors": [
+              "Lora Heller"
+            ],
+            "publisher": "Sterling Publishing Company, Inc.",
+            "publishedDate": "2008",
+            "description": "Photographs and text describe how to make basic signs, including hello, I'm fine, together, and play with me.",
+            "readingModes": {
+              "text": true,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.2.0.preview.3",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=kpIZqzEOZhMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=kpIZqzEOZhMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=kpIZqzEOZhMC&pg=PT2&dq=hello&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=kpIZqzEOZhMC&dq=hello&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Goodbye.html?hl=&id=kpIZqzEOZhMC"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.com.ua/books/download/Hello_Goodbye-sample-epub.acsm?id=kpIZqzEOZhMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "aving “<b>hello</b>” is a developmental milestone. You will be thrilled when your baby <br>\nmakes it to this stage. If you introduce language early on, your baby or toddler will <br>\nlearn to communicate complex words and concepts also. Imagine the joy you&#39;ll&nbsp;..."
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "V2yu7X4J7VoC",
+          "etag": "aK0+yneoY8M",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/V2yu7X4J7VoC",
+          "volumeInfo": {
+            "title": "Hello Dad",
+            "subtitle": "Finding Your Father and Getting to Know Him",
+            "authors": [
+              "Karen Bali"
+            ],
+            "publisher": "WritersPrintShop",
+            "publishedDate": "2004",
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.1.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=V2yu7X4J7VoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=V2yu7X4J7VoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "previewLink": "http://books.google.com.ua/books?id=V2yu7X4J7VoC&pg=PP38&dq=hello&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com.ua/books?id=V2yu7X4J7VoC&dq=hello&hl=&as_pt=BOOKS&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Dad.html?hl=&id=V2yu7X4J7VoC"
+          },
+          "saleInfo": {
+            "country": "UA"
+          },
+          "accessInfo": {
+            "country": "UA",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "accessViewStatus": "SAMPLE"
+          },
+          "searchInfo": {
+            "textSnippet": "Someone who knew Brian at the time is anxious to get in touch with him. If you <br>\nare the Brian Jenks who went to Ealing College, please can you contact me at <br>\nthe address above or give me a call as soon as you. <b>Hello</b> Dad - Finding your <br>\nFather."
+          }
+        }
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

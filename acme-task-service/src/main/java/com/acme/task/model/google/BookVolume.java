@@ -11,10 +11,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class BookVolume {
 
-  String kind;
-  String id;
-  String etag;
-  String selfLink;
   BookVolumeInfo volumeInfo;
 
 }

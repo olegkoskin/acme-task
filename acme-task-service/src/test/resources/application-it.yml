@@ -1,0 +1,6 @@
+acm:
+  external-services:
+    google-books:
+      url: http://localhost:8089/server/googlebooks
+    itunes:
+      url: http://localhost:8089/server/itunes

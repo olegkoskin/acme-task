@@ -25,8 +25,14 @@ public class Creation {
    * @return creation dto
    */
   public static Creation of(BookVolumeInfo volume) {
-    List<String> creators = volume.getAuthors() != null
-        ? volume.getAuthors() : List.of(volume.getPublisher());
+    List<String> creators;
+    if (volume.getAuthors() != null) {
+      creators = volume.getAuthors();
+    } else if (volume.getPublisher() != null) {
+      creators = List.of(volume.getPublisher());
+    } else {
+      creators = List.of();
+    }
     return Creation.builder()
         .title(volume.getTitle())
         .creators(creators)

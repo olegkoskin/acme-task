@@ -13,13 +13,9 @@ export interface Creation {
 })
 export class CreationService {
 
-  public CREATION_API = '/creations';
+  public CREATION_API = '/v1/creations';
 
   constructor(private http: HttpClient) {
-  }
-
-  getAll(): Observable<any> {
-    return this.http.get('/api/creations-all');
   }
 
   search(input: string): Observable<Creation[]> {

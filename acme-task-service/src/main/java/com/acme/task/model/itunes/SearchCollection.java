@@ -11,11 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class SearchCollection {
 
-  String wrapperType;
-  long artistId;
-  long collectionId;
   String artistName;
   String collectionName;
-  String collectionCensoredName;
 
 }

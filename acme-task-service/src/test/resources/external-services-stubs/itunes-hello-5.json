@@ -1,0 +1,25 @@
+{
+  "request": {
+    "urlPath": "/server/itunes/search",
+    "method": "GET",
+    "queryParameters" : {
+      "term": {
+        "equalTo": "hello"
+      },
+      "entity" : {
+        "equalTo": "album"
+      },
+      "limit" : {
+        "equalTo": "5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "itunes-hello-5.json",
+    "headers": {
+      "Content-Type": "text/javascript; charset=utf-8"
+    },
+    "transformers": ["response-template"]
+  }
+}

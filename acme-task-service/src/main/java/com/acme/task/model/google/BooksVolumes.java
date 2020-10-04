@@ -12,8 +12,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class BooksVolumes {
 
-  String kind;
-  int totalItems;
   @Builder.Default
   List<BookVolume> items = List.of();
 
